@@ -4,6 +4,7 @@
 #3. It must not contain any digits.
 
 username = input("write your username: ")
+
 if len(username)>12:
     print("username can not have more than 12 letters.")
 elif not username.find(" ")==-1:
